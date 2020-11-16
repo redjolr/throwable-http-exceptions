@@ -1,0 +1,43 @@
+{
+  "name": "throwable-http-exceptions",
+  "version": "0.1.0",
+  "description": "An opinionated collections of http error classes.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "eslint ./src --ext .ts"
+  },
+  "keywords": [
+    "error",
+    "exception",
+    "http",
+    "throwable",
+    "handler",
+    "express"
+  ],
+  "author": "Redjol Resulaj",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/date-and-time": "^0.13.0",
+    "@types/express": "^4.17.8",
+    "@types/jest": "^26.0.14",
+    "@types/mime-types": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "express": "^4.17.1",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "date-and-time": "^0.14.1",
+    "mime-types": "^2.1.27"
+  }
+}

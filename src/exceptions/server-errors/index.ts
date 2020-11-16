@@ -1,0 +1,6 @@
+export { InternalServerError } from './InternalServerError'
+export { NotImplementedException } from './NotImplementedException'
+export { BadGatewayException } from './BadGatewayException'
+export { ServiceUnavailableException } from './ServiceUnavailableException'
+export { GatewayTimeoutException } from './GatewayTimeoutException'
+export { HTTPVersionNotSupportedException } from './HTTPVersionNotSupportedException'
