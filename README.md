@@ -1,1 +1,1 @@
-An opinionated error handler for express
+An opinionated collections of http error classes in Javascript.
