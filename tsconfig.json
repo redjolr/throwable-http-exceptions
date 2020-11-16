@@ -6,7 +6,8 @@
     "strictNullChecks": true,
     "outDir": "lib",
     "strict": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "types": ["node"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
